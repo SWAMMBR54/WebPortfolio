@@ -1,0 +1,61 @@
+/*
+    Author: Henry Rudisill
+    File: styles.css
+    Date: 04/23/2023
+*/
+
+/* CSS Reset */
+body, #container, header, main, footer {
+    margin: 0;
+    padding: 0;
+}
+
+/* Container Style Rules */
+
+/* Self Portrait Style Rules */
+#selfport {
+    max-height:350px;
+    border-radius: 25px
+}
+/* Style Rules for Footer */
+footer a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Main Style Rules */
+main a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+}
+
+.lang {
+    font-size: 3em;
+}
+
+.proficiency {
+    font-style: italic;
+}
+/* Style Rules for Social Icons */
+.facebook {
+    height: 100px;
+    margin: 25px
+}
+
+.instagram {
+    height: 100px;
+    margin: 25px;
+}
+
+.twitter {
+    height: 100px;
+    margin: 25px;
+}
+
+/* Submit Button Style Rules */
+#submitbtn {
+    border-radius: 10px;
+    color: #FFF;
+}
+
